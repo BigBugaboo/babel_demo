@@ -1,0 +1,21 @@
+{
+  "parserOpts": {
+    "plugins": [
+      "@babel/plugin-proposal-decorators",
+      "@babel/plugin-proposal-class-properties"
+    ]
+  },
+  "passPerPreset": true,
+  "presets": [
+    {
+      "plugins": [
+        "@babel/plugin-transform-regenerator"
+      ]
+    },
+    {
+      "plugins": [
+        "../../../src"
+      ]
+    }
+  ]
+}
