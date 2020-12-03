@@ -1,5 +1,6 @@
 var a = 1;
 var b = 1;
-if (a === b) {
+
+if (left === right) {
   console.log(1);
 }
