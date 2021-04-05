@@ -2,8 +2,8 @@ import path from 'path';
 import fs from 'fs';
 import assert from 'assert';
 import { transformFromAst, transformFileSync, transform } from '@babel/core';
-import * as parser from "@babel/parser";
-import traverse from "@babel/traverse";
+import * as parser from '@babel/parser';
+import traverse from '@babel/traverse';
 import * as t from '@babel/types'
 import * as babylon from 'babylon';
 import trim from './helpers/trim.js'
